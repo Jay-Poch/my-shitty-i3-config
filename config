@@ -204,4 +204,7 @@ bindsym $mod+r mode "resize"
 #}
 exec --no-startup-id export XDG_DATA_DIRS=$XDG_DATA_DIRS:/var/lib/flatpak/exports/share:$HOME/.local/share/flatpak/exports/share
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec --no-startup-id $HOME/.fehbg.sh
+exec_always --no-startup-id ~/.fehbg
+
+
+
